@@ -191,7 +191,8 @@ li.nav a:hover {
 
 .main-message,
 .image-one,
-.image-two{
+.image-two,
+.image-three{
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
@@ -219,7 +220,7 @@ li.nav a:hover {
 }
 /* TODO: Add more background images by repeating the process above */
 .image-three{
-  background
+  background-image: url("https://cdn.glitch.com/da54d01d-7a88-4541-87ef-b7efe14c3352%2Fprison-553836_1280.webp?v=1595958445059")
 }
 /*-----------IMAGE ATTRIBUTIONS (if required)-----------*/
 .attributions {
