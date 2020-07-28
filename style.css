@@ -21,7 +21,7 @@ html {
   line-height: 1.5em; /* Change the line height size*/
   margin: 0em;
   color: white; /* Change the font color*/
-  background-color: #0D38D3; /* Change the background color */
+  background-color: #000000; /* Change the background color */
   box-sizing: border-box;
 }
 
@@ -30,7 +30,7 @@ h1 {
   font-size: 50px;
   /*TODO: Change the font-family property to your linked font*/
   font-family: 'Oswald', sans-serif;
-  color: #43d6b9ff;
+  color: #ffffff;
   text-align: left;
   margin: 10px
 }
@@ -40,14 +40,14 @@ h2 {
   letter-spacing: 3px;
   font-size: 25px;
   font-family: 'Oswald', sans-serif;
-  color: #43d6b9ff;
+  color: #ffffff;
   text-align: center;
   line-height: 1.3em;
 }
 
 /*TODO: Change the color of a link when a person hovers over it*/
 p a {
-  color: #43d6b9ff;
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -112,7 +112,7 @@ li.nav a:hover {
   align-items: center; /* Align the flex items to the center */
 
   /* Design properties */
-  background-color: #0D38D3;
+  background-color: #00000067;
   padding: 5px;
 
   /* Positioning properties */
@@ -128,7 +128,7 @@ li.nav a:hover {
 /* TODO: Review the CSS properties to the flex item for the heading (the left box) */
 .heading-home {
   padding: 2%;
-  color: #43d6b9ff;
+  color: #ffffff;
   font-size: 50px;
   letter-spacing: 10px;
   line-height: 60px;
@@ -187,7 +187,7 @@ li.nav a:hover {
 
 /* TODO: Replace the current image URL with your own. This is the top image on your homepage. */
 .main-message {
-  background-image: url("https://cdn.glitch.com/eb615d20-f1f4-4443-bd45-85e1d5bde77b%2Fkitten.jpg?v=1589124083210");
+  background-image: url("https://cdn.glitch.com/da54d01d-7a88-4541-87ef-b7efe14c3352%2Femiliano-bar-PaKHbtTDqt0-unsplash%20(1)-min.jpg?v=1595950696312");
 }
 
 /* TODO: Replace the current image URL with your own */
