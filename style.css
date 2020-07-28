@@ -241,6 +241,14 @@ button{
 button:hover{
   background-color:gray;
 }
+
+h2 {
+  font-size:30px;
+}
+
+p{
+  font-size:15px;
+}
 /******************************************************/
 /***** CHANGE INDEX.HTML CSS BASED ON SCREEN SIZE *****/
 /******************************************************/
