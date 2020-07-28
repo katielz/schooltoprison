@@ -73,7 +73,11 @@ ul.nav-bar {
 }
 
 .navtitle{
-  
+  color:#a61c007d;
+  font-size: 20px;
+  display: flex;
+  align-self: center;
+  margin: 15px;
 }
 
 /* TODO (optional): Change the font size*/
@@ -102,8 +106,8 @@ li.nav a {
 
 li.nav a:hover {
   /* Styling for the <a> elements when the mouse is hovering in <li class="nav"> */
-  background-color: #0D38D3;
-  color: #43d6b9ff;
+  background-color: gray;
+  color: #000000;
 }
 
 /************************************************/
