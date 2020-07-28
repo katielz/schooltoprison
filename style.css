@@ -35,6 +35,13 @@ h1 {
   margin: 10px
 }
 
+@media screen and (max-width: 700px){
+  .flex-container{
+    flex-wrap: wrap;
+    top: 20%;
+  }
+}
+
 /*TODO: Change the font-family property to your linked font*/
 h2 {
   letter-spacing: 3px;
