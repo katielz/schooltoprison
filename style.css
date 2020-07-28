@@ -192,7 +192,8 @@ li.nav a:hover {
 .main-message,
 .image-one,
 .image-two,
-.image-three{
+.image-three,
+.image-four{
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
@@ -221,6 +222,10 @@ li.nav a:hover {
 /* TODO: Add more background images by repeating the process above */
 .image-three{
   background-image: url("https://cdn.glitch.com/da54d01d-7a88-4541-87ef-b7efe14c3352%2Fprison-553836_1280.webp?v=1595958445059")
+}
+/*TODO: Add image 4*/
+.image-four{
+  background-image: url("https://cdn.glitch.com/da54d01d-7a88-4541-87ef-b7efe14c3352%2Fold-school-s-class-room-1441405.jpg?v=1595959511450")
 }
 /*-----------IMAGE ATTRIBUTIONS (if required)-----------*/
 .attributions {
