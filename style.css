@@ -238,8 +238,8 @@ button{
   padding:15px;
 }
 
-button.hover{
-  background-color:gray
+button:hover{
+  background-color:gray;
 }
 /******************************************************/
 /***** CHANGE INDEX.HTML CSS BASED ON SCREEN SIZE *****/
