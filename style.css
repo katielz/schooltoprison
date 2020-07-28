@@ -31,7 +31,8 @@ h1 {
   /*TODO: Change the font-family property to your linked font*/
   font-family: "Roboto Mono", sans-serif;
   color: #43d6b9ff;
-  text-align: center;
+  text-align: left;
+  margin: 10px
 }
 
 /*TODO: Change the font-family property to your linked font*/
