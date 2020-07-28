@@ -65,9 +65,15 @@ ul.nav-bar {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #43d6b9ff;
-  border-style: solid;
-  border-color: #0D38D3;
+  background-color: #00000067;
+  border-style: none;
+  font-family: 'Oswald', sans-serif;
+  display: flex;
+  text-align:left;
+}
+
+.navtitle{
+  
 }
 
 /* TODO (optional): Change the font size*/
@@ -76,6 +82,7 @@ li.nav {
   /* Styling for the <li class="nav"> element */
   float: right;
   font-size: 15px;
+  padding:10px;
 }
 
 /* TODO (optional): Change the font color, decoration, and/or case */
@@ -83,7 +90,7 @@ li.nav {
 li.nav a {
   /* Styling for the <a> elements in <li class="nav"> */
   display: block;
-  color: #0D38D3;
+  color: #ffffff;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -140,10 +147,10 @@ li.nav a:hover {
 
 /* TODO: Review the CSS properties to the flex item for the intro text (the right box) */
 .intro-text {
-  background-color: #43d6b9ff; /* Add your own background color */
+  background-color: #a61c007d; /* Add your own background color */
   padding: 4%;
   margin: 3%;
-  color: #0D38D3; /* Add the color of your font */
+  color: #ffffff; /* Add the color of your font */
   font-size: 20px; /* Add your font size*/
   letter-spacing: 2px; /* Adds space between letters */
   line-height: 1.4em; /* Adds space between lines */
