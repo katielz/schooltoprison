@@ -1,3 +1,54 @@
+ul.nav-bar {
+  /* Styling for the <ul class="nav-bar"> element */
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #00000067;
+  border-style: none;
+  font-family: 'Oswald', sans-serif;
+  display: flex;
+  text-align:left;
+}
+
+.navtitle{
+  color:#a61c007d;
+  font-size: 20px;
+  display: flex;
+  align-self: center;
+  margin: 15px;
+}
+
+/* TODO (optional): Change the font size*/
+
+li.nav {
+  /* Styling for the <li class="nav"> element */
+  float: right;
+  font-size: 15px;
+}
+
+/* TODO (optional): Change the font color, decoration, and/or case */
+
+li.nav a {
+  /* Styling for the <a> elements in <li class="nav"> */
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* TODO (optional): Change the background color and/or font color when the mouse hovers over an item */
+
+li.nav a:hover {
+  /* Styling for the <a> elements when the mouse is hovering in <li class="nav"> */
+  background-color: gray;
+  color: #000000;
+}
+
+
 /******************************************************/
 /************** CSS FOR TAKE-ACTION.HTML **************/
 /******************************************************/
