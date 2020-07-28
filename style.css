@@ -93,7 +93,6 @@ li.nav {
   /* Styling for the <li class="nav"> element */
   float: right;
   font-size: 15px;
-  padding:10px;
 }
 
 /* TODO (optional): Change the font color, decoration, and/or case */
@@ -180,7 +179,7 @@ li.nav a:hover {
 /* TODO (optional): Change the background color and/or text alignment */
 
 .text-section {
-  background-color: #0D38D3;
+  background-color: #85200cff;
   padding: 20px 45px;
   margin: 35px;
   text-align: center;
