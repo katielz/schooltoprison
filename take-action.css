@@ -46,9 +46,10 @@
   margin-right:0;
   padding: 0px;
   font-size: 16px;
+  background-color:black;
   display: flex;
   flex-direction:column;
-  background-color:black;
+  justify-content:center;
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
 }
 
@@ -64,9 +65,13 @@
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
 }
 
+.checklist-header{
+  color:black;
+}
+
 /* Holds all elements related to the action item list; inside the action-list-container */
 #checklist {
-  background-color: green;/*#00000067;*/
+  background-color: #00000067;
   border-radius: 0px;
   padding-top: 5px;
   padding-bottom: 15px;
