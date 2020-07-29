@@ -29,14 +29,14 @@ h1 {
   letter-spacing: 5px;
   font-size: 50px;
   /*TODO: Change the font-family property to your linked font*/
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   color: #ffffff;
   text-align: left;
-  margin: 10px
+  margin: 10px;
 }
 
-@media screen and (max-width: 700px){
-  .flex-container{
+@media screen and (max-width: 700px) {
+  .flex-container {
     flex-wrap: wrap;
     top: 20%;
   }
@@ -46,7 +46,7 @@ h1 {
 h2 {
   letter-spacing: 3px;
   font-size: 25px;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   color: #ffffff;
   text-align: center;
   line-height: 1.3em;
@@ -74,13 +74,13 @@ ul.nav-bar {
   overflow: hidden;
   background-color: #00000067;
   border-style: none;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   display: flex;
-  text-align:left;
+  text-align: left;
 }
 
-.navtitle{
-  color:#a61c007d;
+.navtitle {
+  color: #a61c007d;
   font-size: 20px;
   display: flex;
   align-self: center;
@@ -193,7 +193,7 @@ li.nav a:hover {
 .image-one,
 .image-two,
 .image-three,
-.image-four{
+.image-four {
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
@@ -216,12 +216,12 @@ li.nav a:hover {
 }
 
 /* TODO: Add a second background image. Make sure you add this class selector to the collective image rule set above */
-.image-two{
+.image-two {
   background-image: url("https://cdn.glitch.com/da54d01d-7a88-4541-87ef-b7efe14c3352%2Fcctv-1144371_1280.webp?v=1595957753320");
 }
 /* TODO: Add more background images by repeating the process above */
-.image-three{
-  background-image: url("https://cdn.glitch.com/da54d01d-7a88-4541-87ef-b7efe14c3352%2Fprison-553836_1280.webp?v=1595958445059")
+.image-three {
+  background-image: url("https://cdn.glitch.com/da54d01d-7a88-4541-87ef-b7efe14c3352%2Fprison-553836_1280.webp?v=1595958445059");
 }
 /*-----------IMAGE ATTRIBUTIONS (if required)-----------*/
 .attributions {
@@ -229,28 +229,28 @@ li.nav a:hover {
   text-align: right;
 }
 
-button{
+button {
   background-color: black;
-  font-family:"Roboto", sans-serif;
-  color:white;
-  font-size:15px;
-  border:none;
-  padding:15px;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-size: 15px;
+  border: none;
+  padding: 15px;
 }
 
-button:hover{
-  background-color:gray;
+button:hover {
+  background-color: gray;
 }
 
 h2 {
-  font-size:30px;
+  font-size: 30px;
 }
 
 p {
-  font-size:15px;
+  font-size: 15px;
 }
 
-.learnmore{
+.learnmore {
   display: flex;
   justify-content: center;
   font-size: 15px;
@@ -261,5 +261,4 @@ p {
 
 /* TODO: Add a breakpoint if the screen is 700px or less */
 
-
-/* TODO: Add additional breakpoints based on your website's design
+/* TODO: Add additional breakpoints based on your website's design */
