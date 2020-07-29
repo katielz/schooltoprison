@@ -13,7 +13,7 @@ ul.nav-bar {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #00000067;
+  background-color: black;
   border-style: none;
   font-family: 'Oswald', sans-serif;
   display: flex;
@@ -66,7 +66,7 @@ li.nav a:hover {
   width: 100%;
   position: absolute;
   text-transform: uppercase;
-  background-color: #a61c007d;;
+  background-color: #85200cff;
 }
 
 
@@ -96,21 +96,16 @@ li.nav a:hover {
 
 /* Left box under title; item in .flex-container */
 .action-info-container {
-  margin-top: 5%;
-  margin-bottom: 2%;
-  margin-left: 15%;
-  margin-right:15%;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right:0;
   padding: 0px;
   font-size: 16px;
   display: flex;
-  justify-content: center;
   flex-direction:column;
   background-color:black;
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
-}
-
-.action-info-container img{
-  width: 90%;
 }
 
 /* Right box under title; item in .flex-container */
@@ -131,9 +126,6 @@ li.nav a:hover {
   padding-bottom: 15px;
   border-style: solid;
   border-color: #ffffff;
-  display:flex;
-  justify-content:center;
-  /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
 }
 
 
