@@ -1,7 +1,7 @@
-/*.takeaction{
+.takeaction{
   background-color:white;
   margin:0;
-}*/
+}
 /******************************************************/
 /************** CSS FOR TAKE-ACTION.HTML **************/
 /******************************************************/
@@ -40,8 +40,8 @@
 
 /* Left box under title; item in .flex-container */
 .action-info-container {
-  margin-top: 0;
-  margin-bottom: 0;
+  margin-top: 5%;
+  margin-bottom: 5%;
   margin-left: 0;
   margin-right:0;
   padding: 0px;
@@ -56,25 +56,31 @@
 .action-list-container {
   width: 75%;
   padding: 35px;
-  margin: 5%;
+  margin: 0;
   flex-grow: 1;
   background-color: #0d9c90;
+  display:flex;
+  justify-content:center;
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
 }
 
 /* Holds all elements related to the action item list; inside the action-list-container */
 #checklist {
-  background-color: white;/*#00000067;*/
+  background-color: green;/*#00000067;*/
   border-radius: 0px;
   padding-top: 5px;
   padding-bottom: 15px;
   border-style: solid;
   border-color: #ffffff;
+  display:flex;
+  justify-content:center;
+  flex-direction:column;
 }
 
 
 /* Header in the list container */
 #checklist-header {
+  display:flex;
   text-align: center;
   color: #0D38D3;
   letter-spacing: 1px;
