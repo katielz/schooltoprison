@@ -1,4 +1,7 @@
-@media only screen and (max-width:700px)
+@media only screen and (max-width:700px) {
+  flex-wrap: wrap;
+  top: 20%;
+}
 
 ul.nav-bar {
   /* Styling for the <ul class="nav-bar"> element */
@@ -95,7 +98,7 @@ li.nav a:hover {
   margin-left: 0;
   margin-top: 5%;
   margin-bottom: 5%;
-  padding: 35px;
+  padding: 0px;
   font-size: 16px;
   flex-grow: 2;
   background-color:black;
@@ -103,7 +106,7 @@ li.nav a:hover {
 }
 
 .action-info-container img{
-  width: 100%;
+  width: 90%;
 }
 
 /* Right box under title; item in .flex-container */
@@ -275,4 +278,8 @@ like a checkmark!
     width: 50%;
     margin-right: 10%;
   }
+}
+
+.glitch-embed-wrap{
+  size: 15px
 }
