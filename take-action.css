@@ -1,5 +1,5 @@
 .takeaction{
-  background-color:white;
+  background-image:url("https://cdn.glitch.com/da54d01d-7a88-4541-87ef-b7efe14c3352%2FScreen%20Shot%202020-07-29%20at%203.07.16%20PM.png?v=1596049663484");
   margin:0;
 }
 /******************************************************/
@@ -40,7 +40,7 @@
 
 /* Left box under title; item in .flex-container */
 .action-info-container {
-  margin-top: 5%;
+  margin-top:8%;
   margin-bottom: 5%;
   margin-left: 0;
   margin-right:0;
@@ -61,13 +61,10 @@
   flex-grow: 1;
   background-color: #0d9c90;
   display:flex;
-  justify-content:center;
+  justify-content: center;
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
 }
 
-.checklist-header{
-  color:black;
-}
 
 /* Holds all elements related to the action item list; inside the action-list-container */
 #checklist {
@@ -78,7 +75,7 @@
   border-style: solid;
   border-color: #ffffff;
   display:flex;
-  justify-content:center;
+  justify-content: center;
   flex-direction:column;
 }
 
@@ -87,7 +84,8 @@
 #checklist-header {
   display:flex;
   text-align: center;
-  color: #0D38D3;
+  justify-content:center;
+  color: black;
   letter-spacing: 1px;
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
 }
@@ -97,7 +95,7 @@
   font: 14px "Roboto", sans-serif;
   text-align: center;
   font-style: italic;
-  color: #0D38D3;
+  color: black;
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
   
 }
