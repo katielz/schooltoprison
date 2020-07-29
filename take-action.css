@@ -5,6 +5,7 @@
 
 .takeaction{
   background-color:white;
+  margin:0;
 }
 ul.nav-bar {
   /* Styling for the <ul class="nav-bar"> element */
@@ -97,7 +98,9 @@ li.nav a:hover {
 /* Left box under title; item in .flex-container */
 .action-info-container {
   margin-top: 5%;
-  margin-bottom: 5%;
+  margin-bottom: 2%;
+  margin-left: 15%;
+  margin-right:15%;
   padding: 0px;
   font-size: 16px;
   display: flex;
