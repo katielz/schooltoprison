@@ -13,7 +13,7 @@ The CSS for the take-action.html is in take-action.css
 /************************************************/
 
 /* TODO: Customize your font properties and background color for all elements inside the <body> and <html> tags */
-body,
+.home,
 html {
   height: 100%;
   font-size: 20px; /* Change the font size*/
