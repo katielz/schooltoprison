@@ -258,3 +258,11 @@ like a checkmark!
   padding-right:100px;
   padding-bottom:70px
 }
+
+.linktoresources{
+  color:gray;
+}
+
+.linktoresources:hover{
+  color:red;
+}
