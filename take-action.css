@@ -62,8 +62,9 @@
 .action-list-container {
   width: 75%;
   padding: 35px;
-  margin-left:20px;
-  margin-right:200px;
+  margin-left:50px;
+  margin-right:130px;
+  margin-bottom:80px;
   flex-grow: 1;
   background-color: #0d9c90;
   display:flex;
@@ -132,7 +133,7 @@
 #my-list li::before {
   content: "";
   position: absolute;
-  border-color: #43d6b9ff;
+  border-color: white;
   border-style: solid;
   border-width: 2px;
   
@@ -153,12 +154,12 @@ like a checkmark!
 /* Change background color when cursor hovers over list items */
 #my-list li:hover {
   background: #f3f3f3;
-  color: #0D38D3;
+  color: black;
 }
 
 /* Change check square color when cursor hovers over */
 #my-list li:hover::before {
-  border-color: #0D38D3;
+  border-color: black;
   border-style: solid;
 }
 
@@ -171,7 +172,7 @@ like a checkmark!
 #my-list li.all-done::before {
   content: "";
   position: absolute;
-  border-color: #0D38D3;
+  border-color: black;
   border-style: solid;
   border-width: 0 2px 2px 0;
   top: 5px;
@@ -248,4 +249,12 @@ like a checkmark!
   display:flex;
   justify-content:center;
   flex-direction:row;
+}
+
+.protestimage{
+  display:flex;
+  justify-content:center;
+  flex-direction:column;
+  padding-right:100px;
+  padding-bottom:70px
 }
