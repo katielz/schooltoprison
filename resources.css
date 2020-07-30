@@ -1,3 +1,21 @@
+.resources{
+  margin:0px;
+}
+
 .resources-all{
-  background-color: #43d6b9ff;
+  background-color: #85200cff;
+  display: flex;
+  justify-content: center;
+  flex-direction:column;
+}
+
+.resources-header{
+  display: flex;
+  justify-content: center;
+  margin:30px;
+}
+
+.resource-description{
+  display: flex;
+  justify-content: center;
 }
