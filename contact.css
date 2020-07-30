@@ -24,9 +24,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  left: 50%;
-  marging-right: -50%;
-  transform: translate ()
+  text-align: center
 }
 .person{
   display: flex;
