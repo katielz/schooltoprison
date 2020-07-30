@@ -1,0 +1,31 @@
+.contact{
+  margin:0px;
+}
+
+.contact-intro{
+  background-color: #85200cff;
+  display: flex;
+  justify-content: center;
+  flex-direction:column;
+}
+
+.contact-header{
+  display: flex;
+  justify-content: center;
+  margin:30px;
+}
+
+.contact-description{
+  display: flex;
+  justify-content: center;
+}
+
+.people{
+  display: flex;
+  flex-direction: column;
+}
+.person{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
