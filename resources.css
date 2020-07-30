@@ -39,3 +39,11 @@
   display: flex;
   justify-content:center;
 }
+
+.goto{
+  color:gray;
+}
+
+.goto:hover{
+  color:red;
+}
