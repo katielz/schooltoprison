@@ -19,3 +19,13 @@
   display: flex;
   justify-content: center;
 }
+
+.article-links{
+  display: flex;
+  flex-direction:column;
+}
+
+.article-link{
+  display: flex;
+  justify-content:center;
+}
